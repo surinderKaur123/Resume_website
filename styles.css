@@ -1,0 +1,295 @@
+p {
+  color: #011f25;
+}
+.topbar {
+  background-image: linear-gradient(to right, #ffe4c4, #dda0dd); position: absolute; z-index: 3; position: fixed;
+}
+.nathan {
+  font-family: "Slackey", cursive, sans-serif;
+  color: black !important;
+}
+
+.navbar-item {
+  color: black;
+  font-weight: bold;
+}
+.navbar-item:hover {
+  font-size: 110%;
+  font-weight: bolder;
+  color: 	#dc143c !important;
+  text-decoration: none;
+}
+.navbar-item:visited {
+  color: black;
+  text-decoration: none;
+}
+
+.empty {
+  height: 10vh;
+}
+
+.customshadow {box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;}
+
+
+
+
+.section1 {
+  background-color: #011f25;
+}
+.hello {
+  color: #6281b5;
+  font-family: "Slackey", cursive, sans-serif;
+}
+.webdeveloper {
+  color: #933335;
+  font-family: "Slackey", cursive, sans-serif;
+}
+.inline {
+  display: inline;
+}
+
+
+@media (max-width: 992px) {
+  #hometitle {text-align: center!important;}
+}
+@media (max-width: 434px) {
+  #hometitle {text-align: left!important;}
+}
+
+
+#profile {
+  height: 50vh;
+  -webkit-transform: rotate(-7deg);
+  -moz-transform: rotate(-7deg);
+  -ms-transform: rotate(-7deg);
+  -o-transform: rotate(-7deg);
+  transform: rotate(-7deg);
+  border-radius: 10px;
+}
+
+#profile:hover {
+  position: static;
+  transform: rotate(0) !important;
+  margin: 0 !important;
+}
+
+@media (max-width: 992px) {
+  #profile {
+    position: static;
+    transform: rotate(0) !important;
+    margin: 0 !important;
+    height: auto;
+    width: 50vw;
+  }
+
+  @media (max-width: 434px) {
+    #profile {position: static;
+      transform: rotate(0) !important;
+      margin: 0 !important;
+      height: auto;
+      width: 80vw;}
+  }
+
+
+
+  .left-align {
+    justify-content: start !important;
+  }
+}
+
+.bignathan {
+  font-family: "Slackey", cursive, sans-serif;
+  color: #fff8af;
+  font-size: 3.5rem;
+}
+
+.textbox {
+  background-color: #933335;
+  border-radius: 10px;
+  animation-duration: 2s;
+  animation-name: slidein;
+}
+@keyframes slidein {
+  from {
+    margin-left: -100%;
+    width: 100%;
+  }
+
+  to {
+    margin-right: 0%;
+    width: 100%;
+  }
+}
+
+.aboutMe-button,
+.myFeatures-button {
+  margin-top: 40px;
+  font-family: "Slackey", cursive, sans-serif;
+  font-weight: lighter !important;
+  color: #e1e4eb;
+}
+
+.boxshadow {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.textshadow {
+  text-shadow: 0px 5px grey;
+}
+.textshadow-weak {
+  text-shadow: 0px 2px grey;
+}
+.section2 {
+  background-color: #e1e4eb;
+}
+.features {
+  color: #011f25;
+  font-family: "Signika Negative", sans-serif;
+  font-weight: bolder;
+}
+.fa-pills,
+.fa-bacterium,
+.fa-bolt {
+  color: #933335;
+  font-size: 8rem;
+  margin-top: 0;
+}
+.degree {
+  font-family: "Signika Negative", sans-serif;
+  color: #6281b5;
+  font-weight: bold;
+}
+.skill-icon {
+  color: white;
+  font-size: 4rem;
+}
+.explain {
+  font-family: "Signika Negative", sans-serif;
+}
+.fa-tablet-alt,
+.fa-mobile-alt,
+.fa-laptop {
+  color: #933335;
+  font-size: 4rem;
+  margin-top: 0;
+}
+
+.section3 {
+  background-color: white;
+}
+#profile2 {
+  border-radius: 100%;
+  height: 20vh;
+}
+.self-intro {
+  font-weight: bold;
+}
+.fa-github-square,
+.fa-linkedin {
+  color: #828eb0;
+  font-size: 2rem;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.fa-github-square:hover,
+.fa-linkedin:hover {
+  font-size: 2.5rem;
+}
+.fa-java,
+.fa-js-square,
+.fa-angular,
+.fa-css3-alt,
+.fa-html5,
+.fa-node {
+  color: #2b4557;
+  font-size: 3.5rem;
+  margin-top: 25px;
+}
+.c-lang {
+  font-size: 1.2rem;
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+
+.section4 {
+  background-color: #933335;
+}
+.form-group {
+  font-size: 1.5rem;
+  font-family: "Signika Negative", sans-serif;
+  font-weight: bold;
+  color: #e1e4eb;
+}
+
+select:hover {
+  border-color: #011f25;
+  border-width: 3px;
+}
+#last-name,
+#first-name:hover {
+  border-color: #011f25;
+  border-width: 3px;
+}
+
+#footer {
+  background-color: #e1e4eb;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.cvTextbox {
+  background-color: #933335;
+  border-radius: 10px;
+}
+
+.cvTop {
+  font-family: "Slackey", cursive, sans-serif;
+  color: #fff8af;
+  font-size: 1.8rem;
+  word-spacing: 8px;
+  font-weight: 500;
+}
+
+.fa-github, .fa-linkedin-in {
+  color: #011f25;
+  font-size: 1.3rem;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.fa-github:hover, .fa-linkedin-in:hover{font-size: 1.6rem;}
+
+.referencePage {color: #933335;}
+.referencePage:hover{color: #AE3C3F; font-size: 101%;}
+.carddesign {border-color: white; border-width: 3px;}
+
+
+.btn-cv {font-family: "Signika Negative", sans-serif; font-weight: bold;}
+
+.card-header{border-width: 0;}
+
+.fa-user-tie, .fa-graduation-cap {color: #e1e4eb;
+  font-size: 3.5rem;}
+
+@media (max-width: 992px) {
+  .card {width: 50vw; margin-left: auto; margin-right: auto;}
+}
+
+.detailPage_hr {margin-left: auto; margin-right: auto; width: 20vw;}
+
+.section5 {
+  background-color: #011f25;
+}
+
+.btn-thesis {font-family: "Signika Negative", sans-serif; font-weight: bold; background-color: #933335!important; border-color: #933335!important;}
+.btn-thesis:hover {background-color: white!important; color: #933335; border-width: 2px;}
+
+.stars {color:#6281b5; font-family: "Signika Negative", sans-serif;
+  font-weight: bolder; margin-bottom: 0;}
+
+.fa-tools {font-size: 10rem; color: #fff8af;}
+.btn-letstalk {font-family: "Signika Negative", sans-serif; font-weight: bold; background-color: #fff8af; border-color: #fff8af; color: #933335;}
+/* font-family: 'Faster One', cursive , sans-serif; */
+
+@media (max-width: 625px) {
+  #footer {font-size: x-small;}
+}
